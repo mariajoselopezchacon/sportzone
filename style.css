@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #f7f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* 💌 sobre */
+.sobre {
+  font-size: 90px;
+  text-align: center;
+  cursor: pointer;
+  color: #ff4d88;
+  z-index: 2;
+}
+
+.sobre span {
+  font-size: 28px;
+  display: block;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* 💖 tarjeta */
+.tarjeta {
+  display: none;
+  background: white;
+  padding: 40px;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+
+/* 💐 título */
+h1 {
+  font-size: 38px;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* ✍️ texto */
+p {
+  white-space: pre-wrap;
+  line-height: 1.9;
+  font-size: 22px;
+  color: #444;
+}
+
+/* 💖 corazones */
+#confetti {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
